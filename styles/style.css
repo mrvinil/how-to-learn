@@ -1,5 +1,6 @@
 :root {
   --color_black: #000;
+  --color_white: #fff;
   --color_blue: #2f80ed;
   --color_gray-light: #f2f2f2;
   --color_gray-dark: #1f1f1f;
@@ -104,18 +105,7 @@ p {
   background-color: var(--color_blue);
 }
 
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-
 /*DESCRIPTION*/
-
-.description {
-
-}
 
 .two-columns {
   display: flex;
@@ -147,4 +137,58 @@ p {
 
 .two-columns__span-accent {
   font-weight: bold;
+}
+
+/*DIGITS*/
+.section-title {
+  margin: auto;
+  width: 60%;
+  text-align: center;
+  padding-bottom: 20px;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  margin: auto;
+  width: 60%;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 60px;
+  margin: auto;
+  width: 1100px;
+  padding-top: 60px;
+  justify-content: space-between;
+}
+
+.table__cell {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 250px;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  color: var(--color_white);
+  margin-right: 0;
+  margin-top: 80px;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
 }
