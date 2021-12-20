@@ -6,25 +6,6 @@
   --color_gray-dark: #1f1f1f;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  padding: 0;
-  margin: 0;
-}
-.gap100px {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-.gap90px {
-  margin-top: 90px;
-  margin-bottom: 90px;
-}
-
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -44,7 +25,6 @@ p {
 }
 .logo {
   width: 183px;
-  height: 35px;
 }
 
 .logo_place_header {
@@ -52,6 +32,7 @@ p {
   top: 30px;
   left: 64px;
   z-index: 100;
+  height: 32px;
 }
 
 .header__title {
@@ -64,6 +45,7 @@ p {
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
+  margin: 0;
 }
 
 .header__subtitle {
@@ -74,6 +56,7 @@ p {
   z-index: 100;
   line-height: 25px;
   font-size: 18px;
+  margin: 0;
 }
 
 .header__link {
@@ -105,6 +88,10 @@ p {
 }
 
 /*DESCRIPTION*/
+.description {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 
 .two-columns {
   display: flex;
@@ -119,6 +106,7 @@ p {
   font-size: 18px;
   font-weight: normal;
   color: var(--color_blue);
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -139,8 +127,13 @@ p {
 }
 
 /*DIGITS*/
+.digits {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 .section-title {
-  margin: auto;
+  margin: 0 auto;
   width: 60%;
   text-align: center;
   padding-bottom: 20px;
@@ -150,7 +143,7 @@ p {
 }
 
 .section-subtitle {
-  margin: auto;
+  margin: 0 auto;
   width: 60%;
   text-align: center;
   line-height: 34px;
@@ -163,7 +156,7 @@ p {
   row-gap: 60px;
   margin: auto;
   width: 1100px;
-  padding-top: 60px;
+  padding: 60px 0 0 0;
   justify-content: space-between;
 }
 
@@ -178,11 +171,13 @@ p {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  margin: 0;
 }
 
 .table__text {
   line-height: 1.2;
   font-size: 18px;
+  margin: 0;
 }
 
 /*FEYNMAN*/
@@ -199,7 +194,7 @@ p {
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
   z-index: 100;
 }
@@ -211,6 +206,7 @@ p {
   font-size: 36px;
   text-align: center;
   z-index: 100;
+  margin: 0;
 }
 
 .feynman__link {
@@ -259,7 +255,7 @@ p {
   position: relative;
   z-index: 100;
   row-gap: 80px;
-  padding-top: 80px;
+  padding: 80px 0 0 0;
 }
 
 .table__cell_theme_dark {
@@ -308,7 +304,7 @@ p {
 }
 
 .logo_place_footer {
-
+  height: 35px;
 }
 
 .footer__author {
