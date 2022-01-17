@@ -1,0 +1,9 @@
+.header__link {
+  color: var(--color_blue);
+  text-decoration: none;
+}
+
+.header__link::after {
+  content: '\2192';
+  padding-left: 5px;
+}

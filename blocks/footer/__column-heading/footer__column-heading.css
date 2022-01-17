@@ -1,0 +1,7 @@
+.footer__column-heading {
+  color: var(--color_white);
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
