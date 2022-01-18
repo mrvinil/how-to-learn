@@ -1,14 +1,9 @@
 .header__link {
   color: var(--color_blue);
   text-decoration: none;
-  transition: .2s ease;
 }
 
 .header__link::after {
   content: '\2192';
   padding-left: 5px;
-}
-
-.header__link:hover {
-  opacity: .7;
 }

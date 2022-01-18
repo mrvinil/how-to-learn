@@ -1,0 +1,13 @@
+.khan__buy-link {
+  align-self: start;
+  text-decoration: none;
+  color: var(--color_blue);
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.khan__buy-link::after {
+  content: '\2192';
+  padding-left: 5px;
+}
