@@ -9,3 +9,5 @@
 
 - HTML
 - CSS
+- FlexBox
+- Grid Layout

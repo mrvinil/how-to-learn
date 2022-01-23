@@ -1,7 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
 
-@import url(../blocks/link-opacity/link-opacity.css);
+@import url(../blocks/link/link.css);
 
 @import url(../blocks/rotation/rotation.css);
 
